@@ -1,0 +1,100 @@
+#cont-principal{
+    background-color: #72d7d3;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.cuerpo{
+padding-top: 200px;
+position: relative;
+z-index: 10;
+}
+#cont-principal .cuerpo .sombrero{
+position: absolute;
+top: 120px;
+left: 225px;
+transition: 1s;
+}
+#cont-principal .cuerpo .zapatoIzq{
+    position: absolute;
+    bottom: -30px;
+    left: 200px;
+    z-index: -12;   
+}
+#cont-principal .cuerpo .zapatoDer{
+    position: absolute;
+    bottom: -30px;
+    right: 200px;
+    z-index: -12;
+}
+#cont-principal .cuerpo .ojoIzq{
+    position: absolute;
+    bottom: 220px;
+    left: 262px;
+    z-index: 20;
+    transition: 1s;
+}
+#cont-principal .cuerpo .ojoDer{
+    position: absolute;
+    bottom: 220px;
+    right:262px;
+    z-index: 20;
+    transition: 1s;
+    
+}
+#cont-principal .cuerpo .vigote{
+    position: absolute;
+    bottom: 60px;
+    left: 258px;
+}
+#cont-principal .cuerpo .nariz{
+    position: absolute;
+    bottom: 110px;
+    left: 280px;
+    z-index: 30;
+    transition: .5s;
+}
+#cont-principal .cuerpo .orejaIzq{
+    position: absolute;
+    bottom: 220px;
+    left: 155px;
+    z-index: -12;
+    transition: .5s;
+}
+#cont-principal .cuerpo .orejaDer{
+    position: absolute;
+    bottom: 220px;
+    right: 155px;
+    z-index: -12;
+    transition: .5s;
+}
+#cont-principal .cuerpo:hover .nariz{
+    transform: rotate(-10deg);
+}
+#cont-principal .cuerpo:hover .ojoDer{
+transform: scale(1.1);
+
+}
+#cont-principal .cuerpo:hover .ojoIzq{
+    transform: scale(1.4);
+    
+    }
+#cont-principal .cuerpo:hover .orejaDer, #cont-principal .cuerpo:hover .orejaIzq{
+    transform: scale(1.1);
+}
+#cont-principal .cuerpo:hover .sombrero{
+    transform: translateY(20px);
+}
+
+
+
+#cont-principal:hover{
+    background-color: #3cc130;
+    transition: 5s;
+}
+#cont-principal:hover{
+    background-color: #ecea0f;
+    transition: 5s;
+}
